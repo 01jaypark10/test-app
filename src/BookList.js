@@ -22,7 +22,7 @@ function BookList({ books, onEdit, onDelete }) {
             <p><strong>출판년도:</strong> {book.year}년</p>
             <p>
               <strong>장르:</strong> 
-              <span className="genre-badge">{book.genre}</span>
+              <span className={`genre-badge genre-${book.genre}`}>{book.genre}</span>
             </p>
           </div>
           <div className="book-actions">

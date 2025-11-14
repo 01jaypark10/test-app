@@ -84,12 +84,49 @@
 }
 
 .genre-badge {
-  background-color: #007bff;
   color: white;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 12px;
   margin-left: 8px;
+  font-weight: bold;
+}
+
+/* 장르별 색상 설정 */
+.genre-프로그래밍 {
+  background-color: #007bff; /* 파란색 */
+}
+
+.genre-판타지 {
+  background-color: #6f42c1; /* 보라색 */
+}
+
+.genre-디스토피아 {
+  background-color: #343a40; /* 어두운 회색 */
+}
+
+.genre-소설 {
+  background-color: #e83e8c; /* 핑크색 */
+}
+
+.genre-과학 {
+  background-color: #20c997; /* 청록색 */
+}
+
+.genre-역사 {
+  background-color: #fd7e14; /* 주황색 */
+}
+
+.genre-로맨스 {
+  background-color: #dc3545; /* 빨간색 */
+}
+
+.genre-미스터리 {
+  background-color: #495057; /* 진한 회색 */
+}
+
+.genre-자기계발 {
+  background-color: #28a745; /* 녹색 */
 }
 
 .book-actions {
